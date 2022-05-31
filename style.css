@@ -1,0 +1,467 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100%;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background: black;
+}
+
+nav {
+  background-color: black;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  height: 100px;
+}
+
+.nav-bar {
+  display: flex;
+  width: 100%;
+  height: 100px;
+  background-color: rgb(231, 224, 224);
+  text-align: center;
+}
+
+.name {
+  height: 100px;
+  width: 100%;
+  font-family: monospace;
+  padding-top: 15px;
+  font-size: 50px;
+}
+
+.name a {
+  text-decoration: none;
+  color: black;
+}
+
+.search {
+  display: flex;
+  width: 100%;
+}
+
+.search-bar {
+  width: 400px;
+  height: 35px;
+  margin-top: 30px;
+  outline: rgb(221, 150, 57);
+  border: none;
+}
+
+.search-button {
+  width: 70px;
+  height: 35px;
+  border-radius: 8px;
+  border: none;
+  background-color: rgb(221, 150, 57);
+  color: azure;
+  cursor: pointer;
+}
+
+.sign {
+  width: 500px;
+  padding-top: 30px;
+  justify-content: space-between;
+  display: flex;
+}
+
+.sign-in {
+  width: 70px;
+  height: 50%;
+  margin-left: 30px;
+}
+
+.sign-up {
+  margin-right: 40px;
+  padding-top: 6px;
+  text-decoration: none;
+  color: black;
+}
+
+.sign a:hover {
+  color: rgb(221, 150, 57);
+}
+
+.nav-bars {
+  width: 100%;
+  height: 70%;
+  display: flex;
+  background-color: black;
+  justify-content: space-between;
+  padding-top: 25px;
+  padding-left: 200px;
+}
+
+.nav-bars a {
+  text-decoration: none;
+  color: white;
+}
+.nav-bars a:hover {
+  color: yellow;
+}
+
+.wine {
+  display: flex;
+  width: 100%;
+}
+
+/*      sign up form      */
+
+.signUp-form {
+  margin-top: 70px;
+  margin-left: 40px;
+  margin-bottom: 20px;
+  height: 100%;
+  /* width: 100%; */
+  color: white;
+}
+
+.signUp-form h1 {
+  margin-bottom: 30px;
+}
+
+.signUp-page {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+.signUp-page form {
+  width: 100%;
+}
+
+.signUp-page img {
+  width: 50%;
+  margin-right: 150px;
+}
+
+.form-name {
+  width: 70%;
+  height: 35px;
+}
+
+.submit {
+  width: 20%;
+  height: 35px;
+  margin-left: 150px;
+  background-color: rgb(221, 150, 57);
+  border: none;
+  border-radius: 5px;
+}
+
+.banner {
+  width: 100%;
+  height: 600px;
+}
+
+.hero {
+  height: 100%;
+}
+img {
+  width: 100%;
+  height: 600px;
+}
+
+.about {
+  position: absolute;
+  width: 50%;
+  height: 200px;
+  top: 50%;
+  color: white;
+}
+
+.about h1 {
+  margin-bottom: 20px;
+  padding-left: 120px;
+  font-family: monospace;
+  font-size: 30px;
+}
+
+pre {
+  font-size: 22px;
+  color: rgb(241, 231, 231);
+}
+
+/* .div {
+  border: 1px solid yellow;
+} */
+
+.productss {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.product {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  height: 450px;
+  width: 100%;
+  gap: 10px;
+}
+
+/* .product-one {
+  padding-top: 2000px;
+  height: 100%;
+} */
+.wine1 {
+  height: 80%;
+  margin-top: 30px;
+}
+
+.brand {
+  height: 300px;
+  width: 100%;
+  background-color: white;
+  color: black;
+}
+
+.brand h3 {
+  width: 100%;
+  height: 50px;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.brands {
+  display: flex;
+  width: 100%;
+  height: 200px;
+}
+
+.one img {
+  width: 100%;
+  height: 100%;
+}
+
+footer {
+  height: 250px;
+  width: 100%;
+  background-color: rgb(29, 28, 28);
+}
+
+.foot_all {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.foot {
+  margin-left: 80px;
+  height: 100%;
+  width: 100%;
+  padding-top: 20px;
+  width: 90%;
+  color: white;
+}
+
+.foot p {
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.foot_about {
+  color: white;
+  text-align: center;
+  text-decoration: none;
+}
+
+.foot_about a {
+  text-decoration: none;
+  color: white;
+}
+
+li {
+  list-style: none;
+}
+
+.media {
+  height: 40%;
+  width: 100%;
+  background-color: rgb(73, 72, 72);
+}
+
+.mediaa {
+  display: flex;
+  float: right;
+  margin-right: 600px;
+  justify-content: space-between;
+  width: 20%;
+  margin-left: 25px;
+  margin-top: 10px;
+}
+
+.mediaa a {
+  text-decoration: none;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  align-items: center;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+  opacity: 0.5;
+}
+
+.fa-facebook {
+  background: #3b5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55acee;
+  color: white;
+}
+
+.fa-instagram {
+  background: #f02d2d;
+  color: white;
+}
+
+.fa-whatsapp {
+  background: #4df02d;
+  color: white;
+}
+
+/*                BEER PAGE             */
+
+.beer-product {
+  height: 100%;
+  width: 100%;
+  background-color: black;
+}
+
+.beer1 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin-top: 70px;
+  height: 50%;
+  width: 100%;
+  gap: 10px;
+  background-color: rgb(26, 26, 26);
+}
+
+.drink-beer {
+  height: 300px;
+  background-color: black;
+  border: 1px solid rgb(53, 52, 52);
+}
+
+.beer-one {
+  grid-column: 1/4;
+  grid-row: 1;
+  width: 100%;
+  height: fit-content;
+}
+.beer-two {
+  grid-column: 2/4;
+  grid-row: 1;
+  width: 100%;
+  height: fit-content;
+}
+
+.beer-three {
+  grid-column: 3/4;
+  grid-row: 1;
+  width: 100%;
+  height: fit-content;
+}
+
+.beer-four {
+  grid-column: 4/4;
+  grid-row: 1;
+  width: 100%;
+  height: fit-content;
+}
+.beer-five {
+  grid-column: 1/4;
+  grid-row: 2;
+  width: 100%;
+  height: fit-content;
+}
+.beer-six {
+  grid-column: 2/4;
+  grid-row: 2;
+  width: 100%;
+  height: fit-content;
+}
+.beer-seven {
+  grid-column: 3/4;
+  grid-row: 2;
+  width: 100%;
+  height: fit-content;
+}
+.beer-eight {
+  grid-column: 4/4;
+  grid-row: 2;
+  width: 100%;
+  height: fit-content;
+}
+.beer-nine {
+  grid-column: 1/4;
+  grid-row: 3;
+  width: 100%;
+  height: fit-content;
+}
+.beer-ten {
+  grid-column: 2/4;
+  grid-row: 3;
+  width: 100%;
+  height: fit-content;
+}
+.beer-eleven {
+  grid-column: 3/4;
+  grid-row: 3;
+  width: 100%;
+  height: fit-content;
+}
+.beer-twelve {
+  grid-column: 4/4;
+  grid-row: 3;
+  width: 100%;
+  height: fit-content;
+}
+
+.cart {
+  height: 65px;
+  text-align: center;
+  width: 250px;
+  margin-left: 50px;
+  margin-top: 1px;
+  padding-left: 20px;
+  color: white;
+  /* border: 1px solid black; */
+}
+
+.beer-name {
+  text-decoration: none;
+  /* border: 1px solid black; */
+  color: white;
+  width: 1000px;
+  margin-bottom: 10px;
+}
+
+.cart-button {
+  background-color: rgb(122, 11, 11);
+  width: 80px;
+  height: 30px;
+  margin-top: 3px;
+  color: white;
+  border: none;
+  border-radius: 3px;
+}
+
+.copyright {
+  color: white;
+  text-align: center;
+}
